@@ -1,0 +1,170 @@
+/* 
+  Aurtor: Mohamed Yaser
+  Theme: Food Order Website Admin
+  Version: 1.0
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.apper {
+  padding: 1%;
+  margin: auto;
+  width: 80%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.clear {
+  float: none;
+  clear: both;
+}
+
+.error {
+  color: red;
+}
+.success {
+  color: #1e90ff;
+}
+
+/* css for manage admin -----------------------------*/
+
+.btn-primary {
+  background-color: #1e90ff;
+  color: white;
+  padding: 7px 20px;
+  border: 0px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 13px;
+}
+.btn-primary:hover {
+  background-color: #1a74cd;
+}
+
+.btn-secondry {
+  background-color: #2ed573;
+  color: white;
+  padding: 7px 20px;
+  border: 0px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 13px;
+}
+.btn-secondry:hover {
+  background-color: #3b744d;
+}
+
+.btn-danger {
+  background-color: #ff4757;
+  color: white;
+  padding: 7px 20px;
+  border: 0px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 13px;
+}
+.btn-danger:hover {
+  background-color: #9b2c36;
+}
+.tbl-full {
+  width: 100%;
+}
+
+table tr th {
+  border-bottom: 1px solid black;
+  padding: 1%;
+  text-align: left;
+  font-size: 13px;
+}
+
+table tr td {
+  padding: 1%;
+  font-size: 13px;
+}
+
+/* css for add admin ------------------------------ */
+
+.tbl-30 {
+  width: 40%;
+}
+
+.tbl-30 tr td input {
+  border: none;
+  padding: 5px;
+}
+
+/* css for menu ----------------------------------- */
+.menu {
+  border-bottom: 2px solid;
+}
+
+.menu ul {
+  list-style: none;
+}
+
+.menu ul li {
+  display: inline;
+  padding: 1%;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #ff5e59;
+}
+
+.menu ul li a:hover {
+  color: #c03c37;
+}
+
+/* css for main content --------------------------- */
+
+.main-content {
+  background-color: #f0f2f6;
+  padding: 3% 0;
+}
+
+.col-4 {
+  background-color: white;
+  width: 20%;
+  margin: 1%;
+  padding: 1%;
+  float: left;
+}
+
+/*  css footer ----------------------------------- */
+
+.footer {
+  background-color: #ff5e59;
+  color: white;
+}
+
+/*  css login ------------------------------------ */
+
+.login {
+  border: 1px solid black;
+  border-radius: 15px;
+  width: 25%;
+  margin: 15% auto;
+  padding: 30px 10px;
+  background-color: #ecb9aa;
+}
+
+div form input {
+  border: none;
+  padding: 5px;
+  border-radius: 3px;
+}
+
+.login p {
+  padding: 10px;
+}
